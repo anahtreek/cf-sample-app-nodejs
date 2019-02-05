@@ -9,7 +9,8 @@
   "author": "Tobias Fuhrimann <tobias.fuhrimann@swisscom.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "node src"
+    "start": "node src",
+    "forever": "forever start src"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
